@@ -1,0 +1,122 @@
+/* Medium Layout: 1280px. */
+@media only screen and (max-width: 767px) { 
+body{background-color:blue}
+.header-left {
+	width: 100%;
+}
+.header-left-info {
+	right:0px;
+	width: 345px;
+}
+.work-process {
+	display: none;
+}
+.work-process-area1._mar_b150 {
+	display: block;
+}
+.work-process-img1 {
+	display: none;
+}
+.works-pro-name1 {
+	margin-top: 32px;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	align-items: center;
+	vertical-align: center;
+	padding: 0px 47px;
+}
+.single-work-pro1.works-pro-name-one1 {
+	width: 88px;
+	height: 88px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #2F2F2F;
+	color: #fff;
+	cursor: pointer;
+	padding: 14px;
+	float: none;
+	margin-right: 13px;
+	margin-bottom: 11px;
+}
+.single-work-pro1.works-pro-name-one1:last-child {
+	margin-right: 0px;
+}
+.section-title2.work-pro-section {
+	left: 0px;
+	position: unset;
+}
+.portfolio_btn button {
+	margin-bottom: 17px;
+}
+.header-left-info {
+	left: 45px;
+	width: 84%;
+}
+.header-area._mar_b100 {
+	margin: 112px 0px 0px 0px;
+}
+.about-area {
+	margin: 0px;
+}
+.about-content {
+	margin-top: 0px;
+}
+.work-process-area {
+	margin-bottom: 0px;
+	margin-top: 36px;
+}
+.work-process-area1._mar_b150 {
+	margin-bottom: 80px;
+}
+.contact-right input {
+	width: 100%;
+	margin-right:0px;
+}
+.single-footer {
+	align-items: center;
+	height: auto;
+	display: flex;
+	flex-flow: column;
+}
+.footer-menu-list {
+	margin: 0px 27px;
+}
+.hamburger-menu {
+	right: -93px;
+}
+.hamburger-menu.open .hamburger {
+	left: 0px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+body{background-color:red}
+
+.header-left {
+	width: 100%;
+}
+.contact-right input {
+	width: 100%;
+}
+.single-service {
+	padding: 31px 13px;
+	min-height: 399px;
+}
+.section-title2.work-pro-section {
+	left: 35%;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+}
+
+
+
+
